@@ -1,0 +1,254 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #ffffff;
+ 
+   
+}
+
+
+.background {
+    background-image: url('cadets.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(2px);
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+}
+
+
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 50px 10px;
+    margin: auto;
+    max-width: 1000px;
+    min-height: 100vh;
+}
+
+/* Edit User */
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.editcontent {
+    z-index: 1;
+    padding: 50px 10px;
+    margin: auto;
+    max-width: 300px; 
+    border-radius: 5px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+form {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    max-width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* Center the button */
+.form-button {
+    text-align: center;
+}
+
+/* Style the Update button */
+form .btn {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #7c9b70;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .btn:hover {
+    opacity: 0.8;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+/* ADD NEW SICKOL */
+.addcontent {
+    z-index: 1;
+    padding: 50px 10px;
+    margin: auto;
+    max-width: 300px; 
+    border-radius: 5px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+}
+/* Headings */
+h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Submit Button */
+.form-save {
+    text-align: center;
+    margin-top: 10px;
+}
+
+form .btn {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #7c9b70;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .btn:hover {
+    opacity: 0.8;
+}
+
+/* Table Styling */
+.addcontent table,
+.addcontent th,
+.addcontent td {
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.3); /* optional: improve contrast */
+    border: 1px solid #ffffff;
+}
+
+.addcontent table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+form {
+    text-align: center;
+    width: 50 auto;
+    margin: 0 auto;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    color: #ffffff; /* Text remains fully opaque */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: lefrit;
+}
+
+/* Buttons */
+.btn, .btn-delete {
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #628750;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-delete {
+    background-color: #a93232;
+}
+
+.btn:hover, .btn-delete:hover {
+    opacity: 0.8;
+}
+
+.expand-btn {
+    background-color: #628750;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.expand-btn:hover {
+    background-color: #91b67e;
+}
+
+/* Hidden details */
+/* Ensure cadet details are hidden by default */
+.cadet-details {
+     display: none;
+     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+
+.cadet-row:hover {
+    backdrop-filter: blur(0px); 
+}
+
+/* Nested Table */
+.nested-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 10px 0 0;
+    padding: 5px;
+    table-layout: fixed;
+}
+
+.nested-table th, .nested-table td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word;
+
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cadet-button {
+    text-align: center;
+    margin: 30px 0;
+}
