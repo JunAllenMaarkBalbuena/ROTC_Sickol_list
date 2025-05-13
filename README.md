@@ -1,0 +1,1 @@
+A database for ROTC medic cadets to monitor and manage cadet data when sick or when rescude. containing vital information, name, contact num, email, address, temperature, blood oxysen level, blood pressure, symptoms, treatment given and applied, and date of treatment 
